@@ -1,0 +1,59 @@
+body , ul , li , p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
+}
+
+.logo img{
+    width: 80px;
+    padding-right: 6px;
+}
+
+.logo h1{
+    display: block;
+    margin: 0;
+    color: rgb(38, 38, 108);
+}
+
+.logo h3{
+    margin: 0;
+    color: rgb(167, 165, 165);
+    font-weight: normal;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu ul{
+    display: block;
+}
+
+.menu ul li{
+    font-size: small;
+    padding: 5px;
+    font-family:Consolas, monaco, monospace;
+}
+
+.menu ul li a:hover{
+    color: rgb(38, 38, 108);
+    transition: color 0.5s ease;
+}
+
