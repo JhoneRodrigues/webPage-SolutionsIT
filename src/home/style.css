@@ -62,7 +62,7 @@ body , ul , li , p, a{
     height: 500px;
     background:
         linear-gradient(rgba(6, 26, 76, 0.8), rgba(0, 0, 0, 0.8)),
-        url('/src/imgs/initial.jpg');
+        url('https://raw.githubusercontent.com/JhoneRodrigues/webPage-SolutionsIT/main/src/imgs/initial.jpg?token=GHSAT0AAAAAACMEMRZI4LVRBRFSJPCZ3K46ZMOGBKQ');
     background-position: center 72%;
     background-repeat: no-repeat;
     background-size: cover;
