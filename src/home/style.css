@@ -1,16 +1,17 @@
-body , ul , li , p{
+body , ul , li , p, a{
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Consolas, monaco, monospace;
+    text-decoration: none;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
 }
 
 .logo{
@@ -31,14 +32,14 @@ body , ul , li , p{
     color: rgb(38, 38, 108);
 }
 
-.logo h3{
+.logo h5{
     margin: 0;
     color: rgb(167, 165, 165);
     font-weight: normal;
+    font-size: x-large;
 }
 
 .menu a{
-    text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
@@ -47,13 +48,33 @@ body , ul , li , p{
 }
 
 .menu ul li{
-    font-size: small;
-    padding: 5px;
-    font-family:Consolas, monaco, monospace;
+    font-size: medium;
+    padding: 5px 0px;
 }
 
 .menu ul li a:hover{
     color: rgb(38, 38, 108);
     transition: color 0.5s ease;
 }
+
+#hd{
+    display: flex;
+    height: 500px;
+    background:
+        linear-gradient(rgba(6, 26, 76, 0.8), rgba(0, 0, 0, 0.8)),
+        url('/src/imgs/initial.jpg');
+    background-position: center 72%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hd div{
+    color: #ffffff;
+    padding-inline: 10% 40%;
+    font-size: 1.9rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
 
