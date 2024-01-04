@@ -3,7 +3,7 @@ body , ul , li , p, a{
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
-    font-family:Consolas, monaco, monospace;
+    font-family: Graphik,Arial,system-ui,-apple-system,blinkmacsystemfont,Segoe UI,roboto,ubuntu,Helvetica Neue,oxygen,cantarell,sans-serif;
     text-decoration: none;
 }
 
@@ -11,13 +11,23 @@ body , ul , li , p, a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 0px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.header div{
+    padding-left: 40px;
+}
+
+.header nav{
+    padding-right: 40px;
 }
 
 .logo{
     display: flex;
-    justify-content: center;
-    background-color: #ffffff;
     Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
 }
 
@@ -57,17 +67,21 @@ body , ul , li , p, a{
     transition: color 0.5s ease;
 }
 
+/*Imagem inicial*/
 #hd{
     display: flex;
-    height: 500px;
+    height: 100vh;
     background:
         linear-gradient(rgba(6, 26, 76, 0.8), rgba(0, 0, 0, 0.8)),
-        url('https://raw.githubusercontent.com/JhoneRodrigues/webPage-SolutionsIT/main/src/imgs/initial.jpg?token=GHSAT0AAAAAACMEMRZI4LVRBRFSJPCZ3K46ZMOGBKQ');
+        url('/src/imgs/initial.jpg');
     background-position: center 72%;
-    background-repeat: no-repeat;
     background-size: cover;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
 
+/*Texto dentro da imagem inicial*/
 #hd div{
     color: #ffffff;
     padding-inline: 10% 40%;
@@ -75,6 +89,38 @@ body , ul , li , p, a{
     display: flex;
     align-content: center;
     align-items: center;
+}
+
+main h3{
+    text-align: center;
+    font-size: 1.9rem;
+    border: none;
+    margin: 0px;
+    padding: 30px;
+}
+
+.conteiner{
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.services{
+    padding: 10px 30px;
+    background-color:rgb(239, 239, 239);
+    border-radius: 2%;
+    width: 27%;
+    height: 250px;
+}
+
+.services h4{
+    margin: 0;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: normal;
+    font-size: x-large;
 }
 
 
