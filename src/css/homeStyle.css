@@ -202,12 +202,16 @@ footer section div{
 @media (max-width: 720px) {
         
     #hd{
-    background-position: -400px 1000px;
+    background-position: center;
     }
 
 
     #hd div{
     padding-inline: 10% 20%;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    }
+
+    .menu{
+        display: none;
     }
 }
