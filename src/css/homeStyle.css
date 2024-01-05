@@ -5,6 +5,7 @@ body , ul , li , p, a{
     font-size: 1.2rem;
     font-family: Graphik,Arial,system-ui,-apple-system,blinkmacsystemfont,Segoe UI,roboto,ubuntu,Helvetica Neue,oxygen,cantarell,sans-serif;
     text-decoration: none;
+    color: #000;
 }
 
 .header{
@@ -206,6 +207,11 @@ footer section div{
 
 #contatos p{
     padding-top: 10px;
+}
+
+#contatos p>a:hover{
+    color: rgb(38, 38, 108);
+    transition: color 0.5s ease;
 }
 
 /*Direitos autorais*/
