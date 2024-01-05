@@ -1,0 +1,114 @@
+body , ul , li , p, a{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Graphik,Arial,system-ui,-apple-system,blinkmacsystemfont,Segoe UI,roboto,ubuntu,Helvetica Neue,oxygen,cantarell,sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+header img{
+    padding-left: 40px;
+}
+
+.logo{
+    height: 30%;
+    display: flex;
+    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
+}
+
+.logo img{
+    width: 30%;
+    height: 30%;
+    padding-right: 10px;
+}
+
+.logo h1{
+    display: block;
+    margin: 0;
+    color: rgb(38, 38, 108);
+}
+
+.logo h5{
+    margin: 0;
+    color: rgb(167, 165, 165);
+    font-weight: normal;
+    font-size: x-large;
+}
+
+/*Estrurando o main com o footer*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/*Flex de navegacao*/
+.menu a{
+    color: rgb(0, 0, 0);
+}
+
+.menu ul{
+    display: block;
+}
+
+.menu ul li{
+    font-size: medium;
+    padding: 5px 40px;
+}
+
+.menu ul li a:hover{
+    color: rgb(38, 38, 108);
+    transition: color 0.5s ease;
+}
+
+/*Rodape*/
+footer{
+    margin-top: 20px;
+    background-color:rgb(245, 245, 245);
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer section div{
+    margin-bottom: 40px;
+}
+
+#contatos h3{
+    margin: 0;
+}
+
+#contatos p{
+    padding-top: 10px;
+}
+
+/*Direitos autorais*/
+#by{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(181, 181, 181);
+}

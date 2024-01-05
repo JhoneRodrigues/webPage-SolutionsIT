@@ -48,6 +48,7 @@ header img{
     font-size: x-large;
 }
 
+/*Flex de navegacao*/
 .menu a{
     color: rgb(0, 0, 0);
 }
@@ -66,7 +67,19 @@ header img{
     transition: color 0.5s ease;
 }
 
-/*Imagem inicial*/
+/*Estrurando o main com o footer*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/*Imagem inicial do corpo*/
 #hd{
     display: flex;
     height: 100vh;
@@ -90,6 +103,7 @@ header img{
     align-items: center;
 }
 
+/*Titulo*/
 main h3{
     text-align: center;
     font-size: 1.9rem;
@@ -98,6 +112,7 @@ main h3{
     padding: 30px;
 }
 
+/*Conteiner dos servicos*/
 .conteiner{
     display: flex;
     align-items: flex-start;
@@ -166,6 +181,7 @@ main h3{
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
+/*Rodape*/
 footer{
     margin-top: 20px;
     background-color:rgb(245, 245, 245);
@@ -192,7 +208,7 @@ footer section div{
     padding-top: 10px;
 }
 
-
+/*Direitos autorais*/
 #by{
     text-align: center;
     margin-top: 100px;
