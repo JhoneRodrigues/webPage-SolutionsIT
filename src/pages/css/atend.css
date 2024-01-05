@@ -1,10 +1,11 @@
-body , ul , li , p, a{
+body , ul , li , p, a, h4, h3{
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: Graphik,Arial,system-ui,-apple-system,blinkmacsystemfont,Segoe UI,roboto,ubuntu,Helvetica Neue,oxygen,cantarell,sans-serif;
     text-decoration: none;
+    color: #000;
 }
 
 .header{
@@ -48,18 +49,6 @@ header img{
     font-size: x-large;
 }
 
-/*Estrurando o main com o footer*/
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-}
-
-main {
-    flex: 1;
-}
-
 /*Flex de navegacao*/
 .menu a{
     color: rgb(0, 0, 0);
@@ -79,10 +68,67 @@ main {
     transition: color 0.5s ease;
 }
 
+/*Estrurando o main com o footer*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    margin-top: 139.06px;
+}
+
+/*Titulo e sub*/
+main > header{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 30px 0px;
+}
+
+main > header > h3{
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+main > header > p > span {
+    color: rgb(4, 4, 139);
+    font-weight: bolder;
+}
+
+/*Conteiner e coneccoes*/
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.conteiner > div > a > p{
+    font-size: 8.0rem;
+    text-align: center;
+}
+
+.conteiner > div > h4{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.conteiner > div > a > p:hover{
+    color: rgb(38, 38, 108);
+    transition: color 0.5s ease;
+}
+
+.conteiner > div{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+
 /*Rodape*/
 footer{
     margin-top: 20px;
-    background-color:rgb(245, 245, 245);
     justify-content: space-around;
     padding: 50px 30px;
 }
@@ -106,9 +152,20 @@ footer section div{
     padding-top: 10px;
 }
 
+#contatos a > p:hover{
+    color: rgb(38, 70, 108);
+    transition: color 0.5s ease;
+}
+
 /*Direitos autorais*/
 #by{
     text-align: center;
     margin-top: 100px;
     color: rgb(181, 181, 181);
+}
+
+@media (max-width: 800px) {
+    .menu{
+        display: none;
+    }
 }

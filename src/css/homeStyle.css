@@ -49,6 +49,18 @@ header img{
     font-size: x-large;
 }
 
+/*Estrurando o main com o footer*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
 /*Flex de navegacao*/
 .menu a{
     color: rgb(0, 0, 0);
@@ -66,18 +78,6 @@ header img{
 .menu ul li a:hover{
     color: rgb(38, 38, 108);
     transition: color 0.5s ease;
-}
-
-/*Estrurando o main com o footer*/
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-}
-
-main {
-    flex: 1;
 }
 
 /*Imagem inicial do corpo*/
@@ -209,7 +209,7 @@ footer section div{
     padding-top: 10px;
 }
 
-#contatos p>a:hover{
+#contatos a>p:hover{
     color: rgb(38, 38, 108);
     transition: color 0.5s ease;
 }
