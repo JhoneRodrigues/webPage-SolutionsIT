@@ -103,7 +103,6 @@ main > header > p > span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
 }
 
 .conteiner > div > a > p{
@@ -114,6 +113,7 @@ main > header > p > span {
 .conteiner > div > h4{
     text-align: center;
     margin: 10px 0px;
+    color: rgb(38, 38, 108);
 }
 
 .conteiner > div > a > p:hover{
@@ -123,12 +123,19 @@ main > header > p > span {
 
 .conteiner > div{
     flex: 1 1 400px;
-    margin: 10px;
+    max-width: 600px;
+    margin-top: 80px;
+}
+
+.conteiner > div > p{
+    text-align: justify;
+    padding-inline: 10px;
 }
 
 /*Rodape*/
 footer{
-    margin-top: 20px;
+    margin-top: 100px;
+    background-color:rgb(245, 245, 245);
     justify-content: space-around;
     padding: 50px 30px;
 }
@@ -140,20 +147,28 @@ footer section{
     flex-wrap: wrap;
 }
 
-footer section div{
-    margin-bottom: 40px;
+#contatos h3{
+    margin: 0;
+    font-size: 1.17em;
 }
 
-#contatos h3{
+#contatos > div > a{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#contatos > div > a > h5{
     margin: 0;
 }
 
-#contatos p{
-    padding-top: 10px;
+#contatos > div > a >p{
+    font-size: 1.7rem;
+    margin-right: 8px;
 }
 
-#contatos a > p:hover{
-    color: rgb(38, 70, 108);
+#contatos > div > a:hover{
+    color: rgb(38, 38, 108);
     transition: color 0.5s ease;
 }
 

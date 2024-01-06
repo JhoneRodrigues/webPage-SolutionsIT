@@ -197,19 +197,27 @@ footer section{
     flex-wrap: wrap;
 }
 
-footer section div{
-    margin-bottom: 40px;
+#contatos h3{
+    margin: 0;
+    font-size: 1.17em;
 }
 
-#contatos h3{
+#contatos > div > a{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#contatos > div > a > h5{
     margin: 0;
 }
 
-#contatos p{
-    padding-top: 10px;
+#contatos > div > a >p{
+    font-size: 1.7rem;
+    margin-right: 8px;
 }
 
-#contatos a>p:hover{
+#contatos > div > a:hover{
     color: rgb(38, 38, 108);
     transition: color 0.5s ease;
 }
