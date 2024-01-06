@@ -187,7 +187,7 @@ footer{
     margin-top: 20px;
     background-color:rgb(245, 245, 245);
     justify-content: space-around;
-    padding: 50px 30px;
+    padding: 30px 30px;
 }
 
 footer section{
@@ -195,6 +195,10 @@ footer section{
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+footer > section > div{
+    margin-top: 30px;
 }
 
 #contatos h3{
