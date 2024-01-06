@@ -20,14 +20,10 @@ body , ul , li , p, a{
     z-index: 2;
 }
 
-header img{
-    padding-left: 40px;
-}
-
 .logo{
-    height: 30%;
     display: flex;
     Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
+    margin-left: 30px;
 }
 
 .logo img{
@@ -234,6 +230,23 @@ footer > section > div{
 }
 
 @media (max-width: 800px) {
+    .header{
+        height: 70px;
+    }
+
+    .header > .logo > img{
+        width: 20%;
+        height: 20%;
+        padding-right: 10px;
+    }
+
+    .header > .logo > div > h1{
+        font-size: 2rem;
+    }
+
+    .header > .logo > div > h5{
+        font-size: 1rem;
+    }
         
     #hd{
     background-position: center;
@@ -243,6 +256,10 @@ footer > section > div{
     #hd div{
     padding-inline: 10% 20%;
     font-size: 1.2rem;
+    }
+
+    main h3{
+        font-size: 1.5rem;
     }
 
     .menu{
