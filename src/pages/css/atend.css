@@ -8,7 +8,7 @@ body , ul , li , p, a, h4, h3{
     color: #000;
 }
 
-.header{
+.nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +22,7 @@ body , ul , li , p, a, h4, h3{
 
 .logo{
     display: flex;
-    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
     margin-left: 30px;
 }
 
@@ -36,6 +36,7 @@ body , ul , li , p, a, h4, h3{
     display: block;
     margin: 0;
     color: rgb(38, 38, 108);
+    font-size: 2.0em;
 }
 
 .logo h5{
@@ -181,21 +182,21 @@ footer > section > div{
         display: none;
     }
 
-    .header{
+    .nav{
         height: 70px;
     }
 
-    .header > .logo > img{
+    .nav > .logo > img{
         width: 20%;
         height: 20%;
         padding-right: 10px;
     }
 
-    .header > .logo > div > h1{
+    .nav > .logo > div > h1{
         font-size: 2rem;
     }
 
-    .header > .logo > div > h5{
+    .nav > .logo > div > h5{
         font-size: 1rem;
     }
 
@@ -209,5 +210,9 @@ footer > section > div{
     
     footer{
         margin-top: 40px;
+    }
+
+    footer .logo h1{
+        font-size: 1.5em;
     }
 }

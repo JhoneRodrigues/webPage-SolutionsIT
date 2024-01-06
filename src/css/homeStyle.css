@@ -8,7 +8,7 @@ body , ul , li , p, a{
     color: #000;
 }
 
-.header{
+.nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +22,7 @@ body , ul , li , p, a{
 
 .logo{
     display: flex;
-    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
     margin-left: 30px;
 }
 
@@ -36,6 +36,7 @@ body , ul , li , p, a{
     display: block;
     margin: 0;
     color: rgb(38, 38, 108);
+    font-size: 2.0em;
 }
 
 .logo h5{
@@ -101,7 +102,7 @@ main {
 }
 
 /*Titulo*/
-main h3{
+#title-main{
     text-align: center;
     font-size: 1.9rem;
     border: none;
@@ -197,6 +198,11 @@ footer > section > div{
     margin-top: 30px;
 }
 
+footer div > .logo h1{
+    font-size: 1.5em;
+    color: #000;
+}
+
 #contatos h3{
     margin: 0;
     font-size: 1.17em;
@@ -230,21 +236,21 @@ footer > section > div{
 }
 
 @media (max-width: 800px) {
-    .header{
+    .nav{
         height: 70px;
     }
 
-    .header > .logo > img{
+    .nav > .logo > img{
         width: 20%;
         height: 20%;
         padding-right: 10px;
     }
 
-    .header > .logo > div > h1{
+    .nav > .logo > div > h1{
         font-size: 2rem;
     }
 
-    .header > .logo > div > h5{
+    .nav > .logo > div > h5{
         font-size: 1rem;
     }
         
@@ -258,8 +264,12 @@ footer > section > div{
     font-size: 1.2rem;
     }
 
-    main h3{
+    #title-main{
         font-size: 1.5rem;
+    }
+
+    footer .logo h1{
+        font-size: 1.5em;
     }
 
     .menu{
