@@ -256,7 +256,7 @@ footer div > .logo h1{
     }
 
     .nav > .logo > div > h1{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .nav > .logo > div > h5{
@@ -278,7 +278,11 @@ footer div > .logo h1{
     }
 
     footer .logo h1{
-        font-size: 1.5em;
+        font-size: 1.2em;
+    }
+
+    footer .logo h5{
+        font-size: 0.9em;
     }
 
     /*Mobile nav config*/
