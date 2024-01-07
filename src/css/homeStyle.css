@@ -173,6 +173,19 @@ main {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
+/*Animacao em servicos*/
+.animate{
+    transform: translateY(50%);
+}
+
+.animate.show-animation{
+    transform: translateX(0);
+}
+
+section .animate{
+    transition: 1s;
+}
+
 /*Rodape*/
 footer{
     margin-top: 20px;
