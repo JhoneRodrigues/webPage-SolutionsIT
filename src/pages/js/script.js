@@ -17,7 +17,7 @@ let services = document.querySelectorAll('.services')
 window.onscroll = () => {
     services.forEach(serv => {
         let top = window.scrollY;
-        let offset = serv.offsetTop - 340;
+        let offset = serv.offsetTop - 500;
         let height = serv.offsetHeight;
 
         if(top >= offset && top < offset + height){
