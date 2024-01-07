@@ -12,19 +12,3 @@ function menuShow(){
         navMenu.classList.add('noShadow')
     }
 }
-
-let services = document.querySelectorAll('.services')
-window.onscroll = () => {
-    services.forEach(serv => {
-        let top = window.scrollY;
-        let offset = serv.offsetTop - 500;
-        let height = serv.offsetHeight;
-
-        if(top >= offset && top < offset + height){
-            serv.classList.add('show-animation');
-        }
-        else{
-            serv.classList.remove('show-animation');
-        }
-    })
-}
