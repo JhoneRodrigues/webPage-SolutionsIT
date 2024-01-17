@@ -24,6 +24,9 @@ body , ul , li , p, a, h4, h3{
 .logo{
     display: flex;
     font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style;
+}
+
+header > nav > .logo{
     margin-left: 30px;
 }
 
