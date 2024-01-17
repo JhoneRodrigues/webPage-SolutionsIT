@@ -205,7 +205,7 @@ footer div > .logo h1{
 #contatos > div > a{
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #contatos > div > a > h5{
@@ -218,6 +218,26 @@ footer div > .logo h1{
 }
 
 #contatos > div > a:hover{
+    color: rgb(38, 38, 108);
+    transition: color 0.5s ease;
+}
+
+#rede-social{
+    text-align: center;
+}
+
+#rede-social > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#rede-social > div > a >p{
+    font-size: 2rem;
+    margin-right: 8px;
+    margin-top: 7px;
+}
+
+#rede-social > div > a i:hover{
     color: rgb(38, 38, 108);
     transition: color 0.5s ease;
 }
