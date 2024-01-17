@@ -190,6 +190,7 @@ footer section{
 
 footer > section > div{
     margin-top: 30px;
+    margin-inline: 80px;   
 }
 
 footer div > .logo h1{
