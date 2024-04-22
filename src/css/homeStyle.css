@@ -80,7 +80,7 @@ main {
     height: 100vh;
     background:
         linear-gradient(rgba(6, 26, 76, 0.8), rgba(0, 0, 0, 0.8)),
-        url('pages/imgs/initial.jpg');
+        url('https://raw.githubusercontent.com/JhoneRodrigues/webPage-SolutionsIT/main/src/pages/imgs/initial.jpg');
     background-position: center 72%;
     background-size: cover;
     top: 0;
